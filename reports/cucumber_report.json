@@ -1,0 +1,576 @@
+[
+  {
+    "description": "  As a Mikloset user\n  I want to verify the dashboard elements and interactions\n  So that I can ensure all menus, navigation, and user actions work correctly",
+    "elements": [
+      {
+        "description": "",
+        "id": "dashboard-functionality;verify-dashboard-menus-and-welcome-message",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify dashboard menus and welcome message",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 444170314
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in and on the dashboard page using stored cookies",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10710781
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Menu"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Home"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Add your style"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Style me"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Curate me"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Follow me"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the dashboard should display the following menu options:",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1203496
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the dashboard should display a welcome message as \"Welcome, qa\"",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 334290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user email should be \"shashidhar_qa@development.mikloset.com\"",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154186
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 8795192,
+              "error_message": "page.waitForEvent: Target page, context or browser has been closed\n=========================== logs ===========================\nwaiting for event \"load\"\n============================================================\n    at World.<anonymous> (/Users/Imran/Desktop/Mikloset/src/steps/dashboard.steps.ts:11:20)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-functionality;navigate-to-\"help-me-style-an-outfit\"-page",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Navigate to \"Help me Style an Outfit\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 360787740
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in and on the dashboard page using stored cookies",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2380561
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "the user clicks the \"Help me Style an Outfit\" button",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266121
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the system should navigate to the styling page successfully",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235371
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 9628717,
+              "error_message": "page.waitForEvent: Target page, context or browser has been closed\n=========================== logs ===========================\nwaiting for event \"load\"\n============================================================\n    at World.<anonymous> (/Users/Imran/Desktop/Mikloset/src/steps/dashboard.steps.ts:11:20)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-functionality;validate-\"add-item(s)-to-my-closet\"-dropdown-options",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Validate \"Add Item(s) to My Closet\" dropdown options",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 255667202
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in and on the dashboard page using stored cookies",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1797837
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user opens the \"Add Item(s) to My Closet\" dropdown",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151299
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Option Name",
+                      "Status"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Forward Digital Receipt To shashidhar_qa@development.mikloset.com",
+                      "Enabled"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Add Items from Digital Receipts",
+                      "Enabled"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Scan my Gmail for New Receipts",
+                      "Disabled"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Upload Item Image/URL",
+                      "Enabled"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the dropdown should contain the following options:",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117617
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "each enabled option should be clickable",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86710
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 7092889,
+              "error_message": "page.waitForEvent: Target page, context or browser has been closed\n=========================== logs ===========================\nwaiting for event \"load\"\n============================================================\n    at World.<anonymous> (/Users/Imran/Desktop/Mikloset/src/steps/dashboard.steps.ts:11:20)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-functionality;verify-\"view-all\"-navigation-and-item-storage",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Verify \"View All\" navigation and item storage",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 250946551
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in and on the dashboard page using stored cookies",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1566943
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "the user clicks the \"View All\" button",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105525
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "they should be navigated to the \"My Items\" page",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121256
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "if items are present, the item details should be stored for later use",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88029
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 6363836,
+              "error_message": "page.waitForEvent: Target page, context or browser has been closed\n=========================== logs ===========================\nwaiting for event \"load\"\n============================================================\n    at World.<anonymous> (/Users/Imran/Desktop/Mikloset/src/steps/dashboard.steps.ts:11:20)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-functionality;verify-category-navigation-and-edit-functionality",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Verify category navigation and edit functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 245593878
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in and on the dashboard page using stored cookies",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2363256
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "the user opens each category from the dashboard",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113067
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "the page should navigate correctly for each category",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78381
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "when the user hovers over a category",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72431
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "an \"Edit\" button should appear",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "the user clicks the \"Edit\" button",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67976
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "they should be able to change the category picture successfully",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70944
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 6463381,
+              "error_message": "page.waitForEvent: Target page, context or browser has been closed\n=========================== logs ===========================\nwaiting for event \"load\"\n============================================================\n    at World.<anonymous> (/Users/Imran/Desktop/Mikloset/src/steps/dashboard.steps.ts:11:20)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-functionality;verify-user-guide-video-playback",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Verify user guide video playback",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 260538482
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in and on the dashboard page using stored cookies",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1790393
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "the user plays the \"User Guide\" video",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150548
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "the video should start playing without error",
+            "match": {
+              "location": "src/steps/dashboard.steps.ts:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73637
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 6420538,
+              "error_message": "page.waitForEvent: Target page, context or browser has been closed\n=========================== logs ===========================\nwaiting for event \"load\"\n============================================================\n    at World.<anonymous> (/Users/Imran/Desktop/Mikloset/src/steps/dashboard.steps.ts:11:20)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "dashboard-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Dashboard functionality",
+    "tags": [],
+    "uri": "features/dashboard.feature"
+  }
+]

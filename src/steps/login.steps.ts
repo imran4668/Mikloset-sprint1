@@ -1,15 +1,15 @@
 import { Given, Then, When } from "@cucumber/cucumber";
-import { getWorld } from "../support/pageFixture";
 import HomePage from "../pom/homePage";
 import { LoginPage } from "../pom/loginPage";
+import { ICustomWorld } from "../support/world";
 
 
 let homepage:HomePage;
 let loginpage:LoginPage;
        
-         Given('I am on the login page', async function () {    
-            homepage = new HomePage(getWorld().page);
-            loginpage = new LoginPage(getWorld().page);
+         Given('I am on the login page', async function (this: ICustomWorld) {    
+            homepage = new HomePage(this.page!);
+            loginpage = new LoginPage(this.page!);
             await homepage.goto("/signin");
            
          });

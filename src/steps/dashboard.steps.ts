@@ -1,11 +1,12 @@
 import { Given, Then, When } from "@cucumber/cucumber";
 import dashboardPage from "../pom/dashboardPage";
-import { getWorld } from "../support/pageFixture";
+import { ICustomWorld } from "../support/world";
+
 
 let dashboard:dashboardPage;
 
 Given('the user is logged in and on the dashboard page using stored cookies', async function () {
-    dashboard = new dashboardPage(getWorld().page);
+    dashboard = new dashboardPage(this.page!);
     dashboard.navigateToDashboard();
     dashboard.page.waitForEvent('load')
     console.log("i enters dashboard")

@@ -56,9 +56,13 @@ After(async function (this: ICustomWorld, { pickle, result }) {
     // If the scenario failed, take a screenshot and attach it to the report.
     if (result?.status === Status.FAILED) {
         try {
+            // 1. THIS IS THE FIX: Sanitize the name to be a safe filename
+            //    It replaces spaces with '_' and removes all non-alphanumeric characters
+            const safeName = pickle.name.replace(/\s+/g, '_').replace(/[^a-zA-Z0-9_-]/g, '');
+
             const screenshot = await this.page!.screenshot({ 
-                // Creates a unique name for the screenshot
-                path: `reports/screenshots/${pickle.name.replace(/\s+/g, '_')}.png`, 
+                // 2. Use the new 'safeName'
+                path: `reports/screenshots/${safeName}.png`, 
                 fullPage: true 
             });
             this.attach(screenshot, 'image/png');

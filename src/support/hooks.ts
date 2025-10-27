@@ -9,10 +9,6 @@ setDefaultTimeout(60 * 1000);
 
 let browser: Browser;
 
-/**
- * BeforeAll: Runs ONCE before all tests.
- * Its only job is to launch the browser.
- */
 BeforeAll(async function () {
     const launcher: BrowserType = process.env.BROWSER === 'firefox' ? firefox :
                                  process.env.BROWSER === 'webkit' ? webkit :

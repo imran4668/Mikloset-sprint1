@@ -11,7 +11,7 @@ export class LoginPage {
 
     constructor(page:Page) {
         this.page = page;
-        this.userNameOrEmail=page.locator('//*[@id="root"]/section/div/div[2]/div/div/div[1]/div/input');
+        this.userNameOrEmail=page.getByTestId('google_button');
         this.password=page.locator('//*[@id="root"]/section/div/div[2]/div/div/div[2]/div/input');
         this.loginButton=page.locator('//*[@id="root"]/section/div/div[2]/div/div/button');   
         this.passnotvalid=page.locator("//p[contains(text(),'Password is not Valid')]");   

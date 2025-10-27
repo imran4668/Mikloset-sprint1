@@ -6,16 +6,18 @@ import { ICustomWorld } from "../support/world";
 let dashboard:dashboardPage;
 
 Given('the user is logged in and on the dashboard page using stored cookies', async function () {
-    dashboard = new dashboardPage(this.page!);
-    dashboard.navigateToDashboard();
-    dashboard.page.waitForEvent('load')
-    console.log("i enters dashboard")
+   dashboard = new dashboardPage(this.page!);
+    // Make sure navigateToDashboard is awaited
+    await dashboard.navigateToDashboard();
+    console.log("Navigated to dashboard");
     
     
 
 });
 
 Then('the dashboard should display the following menu options:', async function (dataTable) {
+//    dashboard.validateMenuOptions(dataTable.rows())
+   
 
 });
 

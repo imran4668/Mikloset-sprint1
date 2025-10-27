@@ -8,7 +8,7 @@ dotenv.config();
   const context = await browser.newContext();
 
   const page = await context.newPage();
-  await page.goto(`${process.env.BASE_URL}/login`);
+  await page.goto(`${process.env.BASE_URL}/signin`);
 
   // 👇 Manually log in using your credentials
   console.log('🔹 Please log in manually...');

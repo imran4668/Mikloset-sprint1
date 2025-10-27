@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 645933371
+              "duration": 578721974
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8043587271
+              "duration": 7089653113
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 159393145
+              "duration": 211826645
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 5009256671,
+              "duration": 5011765560,
               "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('//p[contains(text(),\"Welcome\")]')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//p[contains(text(),\"Welcome\")]')\u001b[22m\n\n    at Proxy.<anonymous> (/Users/Imran/Desktop/Mikloset/node_modules/playwright/lib/matchers/expect.js:221:24)\n    at LoginPage.validateLoginSuccess (/Users/Imran/Desktop/Mikloset/src/pom/loginPage.ts:28:76)\n    at World.<anonymous> (/Users/Imran/Desktop/Mikloset/src/steps/login.steps.ts:23:33)"
             }
           },
@@ -62,7 +62,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 149293233
+              "duration": 195067405
             },
             "embeddings": [
               {
@@ -87,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 238403475
+              "duration": 261439968
             }
           },
           {
@@ -100,7 +100,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7907869526
+              "duration": 5870241108
             }
           },
           {
@@ -113,7 +113,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 152222239
+              "duration": 151564308
             }
           },
           {
@@ -126,7 +126,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1876469836
+              "duration": 1871461626
             }
           },
           {
@@ -134,7 +134,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 54950196
+              "duration": 102263597
             }
           }
         ],
@@ -153,7 +153,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 252765246
+              "duration": 255964853
             }
           },
           {
@@ -166,7 +166,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6312830729
+              "duration": 6008900983
             }
           },
           {
@@ -179,7 +179,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 96283398
+              "duration": 135966162
             }
           },
           {
@@ -192,7 +192,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 360059153
+              "duration": 863247765
             }
           },
           {
@@ -200,7 +200,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 38918129
+              "duration": 37804103
             }
           }
         ],
@@ -219,7 +219,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 242192293
+              "duration": 234658895
             }
           },
           {
@@ -232,7 +232,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6889781083
+              "duration": 5909194380
             }
           },
           {
@@ -245,7 +245,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 143756937
+              "duration": 146247952
             }
           },
           {
@@ -258,7 +258,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 99872
+              "duration": 108350
             }
           },
           {
@@ -266,7 +266,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 31023601
+              "duration": 31330352
             }
           }
         ],

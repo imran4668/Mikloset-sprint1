@@ -17,11 +17,21 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
-    - name: Run Playwright tests
-      run: npx playwright test
+      
+    # 1. This is the main fix: Run 'npm test' to execute your Cucumber script
+    - name: Run Cucumber tests
+      run: npm test
+      
+    # 2. Add this step to generate the Allure report
+    #    (This runs even if 'npm test' fails, so you can see the failed tests)
+    - name: Generate Allure report
+      if: ${{ always() }}
+      run: npx allure generate allure-results --clean -o allure-report
+      
+    # 3. Change the 'name' and 'path' to upload the 'allure-report'
     - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
+      if: ${{ always() }}
       with:
-        name: playwright-report
-        path: playwright-report/
+        name: allure-report
+        path: allure-report/
         retention-days: 30

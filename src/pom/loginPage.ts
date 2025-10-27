@@ -11,10 +11,10 @@ export class LoginPage {
 
     constructor(page:Page) {
         this.page = page;
-        this.userNameOrEmail=page.getByTestId('google_button');
-        this.password=page.locator('//*[@id="root"]/section/div/div[2]/div/div/div[2]/div/input');
-        this.loginButton=page.locator('//*[@id="root"]/section/div/div[2]/div/div/button');   
-        this.passnotvalid=page.locator("//p[contains(text(),'Password is not Valid')]");   
+        this.userNameOrEmail=page.getByTestId('username_field_input');
+        this.password=page.getByTestId('password_field_input');
+        this.loginButton=page.getByTestId('login_button');   
+        this.passnotvalid=page.getByTestId('password_field_error_text');   
     }
 
     async login(username:string,password:string){

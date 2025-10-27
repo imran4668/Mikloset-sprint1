@@ -1,6 +1,6 @@
 {
   "default": {
-    "paths": ["features/loginPage.feature"],
+    "paths": ["features/login.feature"],
     "publishQuiet": true,
     "dryRun": false,
     "formatOptions": {

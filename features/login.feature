@@ -10,7 +10,7 @@ Feature: User Login
 
     Examples:
       | username | password | expectedOutcome |
-      | imran467267    | Imran@46726 | Welcome         |
+      | imran467267    | Imran@46726 7 | Welcome         |
       | imran023786@gmail.com  | Imran@46726    | Welcome|
       | imran023786@gmail.com   |   immma  | password not valid  |
       | imran023  |   immma  | username or email not valid |

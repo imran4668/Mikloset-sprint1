@@ -5,7 +5,12 @@ export class LoginPage {
     readonly userNameOrEmail: Locator;
     readonly password:Locator;
     readonly loginButton:Locator;
-    readonly passnotvalid:Locator;
+    readonly passErrors:Locator;
+    readonly userNameErrors:Locator;
+   
+  
+
+    
     
     
 
@@ -14,7 +19,10 @@ export class LoginPage {
         this.userNameOrEmail=page.getByTestId('username_field_input');
         this.password=page.getByTestId('password_field_input');
         this.loginButton=page.getByTestId('login_button');   
-        this.passnotvalid=page.getByTestId('password_field_error_text');   
+        this.passErrors=page.getByTestId('password_field_error_text');   
+        this.userNameErrors=page.getByTestId('username_field_error_text');
+       
+   
     }
 
     async login(username:string,password:string){
@@ -30,9 +38,22 @@ export class LoginPage {
         console.log('✅ Cookies saved to auth.json');
     }
   
-    async validatePasswordNotValid(){
-        await expect(this.passnotvalid).toBeVisible();
+    async validatePasswordErrors(error:string){
+        await expect(this.passErrors).toContainText(error)
     }
+    async validateUserNameErrors(error:string){
+        await expect(this.userNameErrors).toContainText(error);
+    }
+    async validateLoginButton(){
+        await expect(this.loginButton).toBeDisabled();
+    }
+    async pressLoginButton(){
+        await this.loginButton.click();
+    }
+   
+    
+
+        
 
 
 }

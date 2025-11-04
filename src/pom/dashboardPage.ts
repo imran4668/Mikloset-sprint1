@@ -18,7 +18,6 @@ export default class dashboardPage {
     this.page = page;
     //menu items
     this.menu = page.locator('//*[@id="mainSectionContainer"]/div[1]/div[2]/ul/li[1]/a/p');
-    this.menu=
     this.addYourStyle=page.locator('//*[@id="mainSectionContainer"]/div[1]/div[2]/ul/li[2]/a/p');
     this.styleMe=page.locator('//*[@id="mainSectionContainer"]/div[1]/div[2]/ul/li[3]/a/p');
     this.curateMe=page.locator('//*[@id="mainSectionContainer"]/div[1]/div[2]/ul/li[4]/a/p');

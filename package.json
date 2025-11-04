@@ -12,10 +12,17 @@
   "devDependencies": {
     "@cucumber/cucumber": "^12.2.0",
     "@playwright/test": "^1.56.0",
+    "@types/imap-simple": "^4.2.10",
+    "@types/mailparser": "^3.4.6",
     "@types/node": "^24.7.2",
     "allure-commandline": "^2.34.1",
     "allure-cucumberjs": "^3.4.1",
     "dotenv": "^17.2.3",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.7.5",
     "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "npm": "^11.6.0"
   }
 }

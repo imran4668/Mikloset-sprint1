@@ -11,7 +11,7 @@ Feature: User Login Functionality
   # Positive Scenarios
   @Positive
   Scenario: Successful login with valid username - imran467267
-    When I enter username "imran" and password "Mikloset@123"
+    When I enter username "imrans" and password "Mikloset@123"
     Then I should see "Welcome" and if you see welcome storecookies
 
   @Positive

@@ -14,8 +14,6 @@ export default class HomePage {
        
     }
     async goto(url?:String){
-        await this.page.waitForLoadState('networkidle');
-        await this.page.waitForLoadState('load')
         await this.page.goto(`${process.env.BASE_URL}${url}`);
         await this.page.waitForLoadState('networkidle');
         await this.page.waitForLoadState('load')

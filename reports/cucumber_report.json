@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 474515069
+              "duration": 4236410280
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5734757865
+              "duration": 25737647012
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 177218709
+              "duration": 2766316909
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4882859919
+              "duration": 1123050699
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 64005417
+              "duration": 96836329
             }
           }
         ],
@@ -89,7 +89,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 270888139
+              "duration": 4156280954
             }
           },
           {
@@ -102,7 +102,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4111895888
+              "duration": 25714158866
             }
           },
           {
@@ -115,7 +115,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 105553338
+              "duration": 2323760856
             }
           },
           {
@@ -128,7 +128,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2873639608
+              "duration": 1491126126
             }
           },
           {
@@ -136,7 +136,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 64145756
+              "duration": 211828545
             }
           }
         ],
@@ -164,7 +164,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 266138889
+              "duration": 4342212376
             }
           },
           {
@@ -177,7 +177,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4151543949
+              "duration": 22632513467
             }
           },
           {
@@ -190,7 +190,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 147213573
+              "duration": 3507106590
             }
           },
           {
@@ -203,7 +203,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2875716726
+              "duration": 1803163094
             }
           },
           {
@@ -211,7 +211,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 27464774
+              "duration": 1032623756
             }
           }
         ],
@@ -239,7 +239,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 262561893
+              "duration": 3618386939
             }
           },
           {
@@ -252,7 +252,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4006131473
+              "duration": 24614361963
             }
           },
           {
@@ -265,7 +265,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 140038541
+              "duration": 2475151184
             }
           },
           {
@@ -278,7 +278,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 863549730
+              "duration": 54161292
             }
           },
           {
@@ -286,7 +286,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 26534974
+              "duration": 740014817
             }
           }
         ],
@@ -314,7 +314,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 255598059
+              "duration": 4103710387
             }
           },
           {
@@ -327,7 +327,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3381558405
+              "duration": 22618545451
             }
           },
           {
@@ -340,7 +340,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 150097284
+              "duration": 2833534044
             }
           },
           {
@@ -353,7 +353,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 210547
+              "duration": 9163035
             }
           },
           {
@@ -361,7 +361,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 45015998
+              "duration": 466132420
             }
           }
         ],
@@ -389,7 +389,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 260289790
+              "duration": 4803938225
             }
           },
           {
@@ -402,7 +402,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5607140157
+              "duration": 23609695773
             }
           },
           {
@@ -415,7 +415,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 151287667
+              "duration": 3655112339
             }
           },
           {
@@ -428,7 +428,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3571933
+              "duration": 365394673
             }
           },
           {
@@ -436,7 +436,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 40668622
+              "duration": 311316781
             }
           }
         ],
@@ -454,156 +454,6 @@
       },
       {
         "description": "",
-        "id": "user-login-functionality;empty-password",
-        "keyword": "Scenario",
-        "line": 45,
-        "name": "Empty password",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 254258019
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 9,
-            "name": "I am on the Mikloset login page",
-            "match": {
-              "location": "src/steps/login.steps.ts:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3581890988
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 46,
-            "name": "I enter username \"imran023786@gmail.com\" and password \"\"",
-            "match": {
-              "location": "src/steps/login.steps.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 152962174
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 47,
-            "name": "I should see the error message \"Please enter a Password\"",
-            "match": {
-              "location": "src/steps/login.steps.ts:29"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3223475
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 40088513
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Login",
-            "line": 2
-          },
-          {
-            "name": "@Negative",
-            "line": 44
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "user-login-functionality;script-injection-attempt",
-        "keyword": "Scenario",
-        "line": 50,
-        "name": "Script injection attempt",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 325170454
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 9,
-            "name": "I am on the Mikloset login page",
-            "match": {
-              "location": "src/steps/login.steps.ts:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4672760635
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 51,
-            "name": "I enter username \"<script>alert(1)</script>\" and password \"test\"",
-            "match": {
-              "location": "src/steps/login.steps.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 138310459
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 52,
-            "name": "I should see the error message \"No Account created\"",
-            "match": {
-              "location": "src/steps/login.steps.ts:29"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 107131
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 31282514
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Login",
-            "line": 2
-          },
-          {
-            "name": "@Negative",
-            "line": 49
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
         "id": "user-login-functionality;blank-fields",
         "keyword": "Scenario",
         "line": 57,
@@ -614,7 +464,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 273070092
+              "duration": 2909538759
             }
           },
           {
@@ -627,7 +477,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4051300839
+              "duration": 22861592748
             }
           },
           {
@@ -640,7 +490,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 141994582
+              "duration": 2913192117
             }
           },
           {
@@ -653,7 +503,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4042465
+              "duration": 72869559
             }
           },
           {
@@ -666,7 +516,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3895211
+              "duration": 11177434
             }
           },
           {
@@ -674,7 +524,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 37050866
+              "duration": 1224038085
             }
           }
         ],
@@ -702,7 +552,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 253498288
+              "duration": 3244151301
             }
           },
           {
@@ -715,7 +565,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3723046185
+              "duration": 15457484663
             }
           },
           {
@@ -728,7 +578,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 143837317
+              "duration": 6319832553
             }
           },
           {
@@ -741,7 +591,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3873362702
+              "duration": 1672271423
             }
           },
           {
@@ -749,7 +599,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 37870630
+              "duration": 4915422932
             }
           }
         ],
@@ -767,17 +617,17 @@
       },
       {
         "description": "",
-        "id": "user-login-functionality;case-insensitive-email",
+        "id": "user-login-functionality;empty-password",
         "keyword": "Scenario",
-        "line": 68,
-        "name": "Case insensitive email",
+        "line": 45,
+        "name": "Empty password",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 255561130
+              "duration": 2504873024
             }
           },
           {
@@ -790,7 +640,157 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3480223106
+              "duration": 23906460041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "I enter username \"imran023786@gmail.com\" and password \"\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3616198333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I should see the error message \"Please enter a Password\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54858677
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 356804202
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 2
+          },
+          {
+            "name": "@Negative",
+            "line": 44
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-login-functionality;script-injection-attempt",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Script injection attempt",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3468858082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Mikloset login page",
+            "match": {
+              "location": "src/steps/login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22736939710
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I enter username \"<script>alert(1)</script>\" and password \"test\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3301173808
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I should see the error message \"No Account created\"",
+            "match": {
+              "location": "src/steps/login.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33174429
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 312769918
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 2
+          },
+          {
+            "name": "@Negative",
+            "line": 49
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-login-functionality;case-insensitive-email",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "Case insensitive email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2931378157
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the Mikloset login page",
+            "match": {
+              "location": "src/steps/login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21734904682
             }
           },
           {
@@ -803,7 +803,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 149185110
+              "duration": 2711782261
             }
           },
           {
@@ -816,7 +816,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2868422321
+              "duration": 2059750904
             }
           },
           {
@@ -824,7 +824,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 44234735
+              "duration": 2541126471
             }
           }
         ],
@@ -852,7 +852,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 263803423
+              "duration": 2511542055
             }
           },
           {
@@ -865,7 +865,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7559211424
+              "duration": 6680854139
             }
           },
           {
@@ -878,7 +878,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 142023173
+              "duration": 79960732
             }
           },
           {
@@ -891,7 +891,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 859485880
+              "duration": 372656995
             }
           },
           {
@@ -899,7 +899,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 41222136
+              "duration": 33066687
             }
           }
         ],

@@ -26,7 +26,7 @@ export class LoginPage {
     }
 
     async login(username:string,password:string){
-        console.log(`Logging in with username: ${username} and password: ${password}`);
+        // console.log(`Logging in with username: ${username} and password: ${password}`);
         await this.userNameOrEmail.fill(username);
         await this.password.fill(password);
         await this.loginButton.click();
@@ -35,7 +35,7 @@ export class LoginPage {
     async validateLoginSuccess(){
         await expect(this.page.locator('//p[contains(text(),"Welcome")]')).toBeVisible();
         await this.page.context().storageState({ path: 'auth.json' });
-        console.log('✅ Cookies saved to auth.json');
+        // console.log('✅ Cookies saved to auth.json');
     }
   
     async validatePasswordErrors(error:string){

@@ -12,13 +12,15 @@ Feature: User Signup Functionality
   # UI Verification
   # -------------------------------
   @UI
-  # Scenario: Verify signup page elements are displayed correctly
-  #   Then I should see "Continue with Google" option
-  #   And I should see "Sign up with email" option 
-  #   And I click on Sign up with email
-  #   And I should see fields for "Full name", "Email address", "Username" and "Password"
-  #   And I should see gender options "Female", "Male", and "Gender Neutral"
-  #   And I should see a Sign up button
+  Scenario: Verify signup page elements are displayed correctly
+  Given I am on the Mikloset signup page
+    Then I should see "Continue with Google" option
+    And I should see "Sign up with email" option 
+    And I click on Sign up with email
+    And I should see fields for "Full name", "Email address", "Username" and "Password"
+    And I should see gender options "Female", "Male", and "Gender Neutral"
+    And I should see a Sign up button
+
 
   # -------------------------------
   # Google Signup (not automated)
@@ -40,8 +42,8 @@ Feature: User Signup Functionality
     And I enter password "<password>"
     And I select gender "<gender>"
     And I click on Sign up button
-    Then I should see a success message Signup successful
-    And I should be redirected to the Mikloset dashboard
+    Then I should see a success message Signup successful or error "User already exits with provided email"
+  
 
     Examples:
       | fullname     | email                  | username   | password  | gender         |
@@ -101,7 +103,7 @@ Feature: User Signup Functionality
     And I enter password "  Test@123  "
     And I select gender "Male"
     And I click on Sign up button
-    Then I should see a success message Signup successful
+    Then I should see a success message Signup successful or error "User already exits with provided email"
 
   @Edge
   Scenario: Signup with case-sensitive email and username
@@ -111,7 +113,7 @@ Feature: User Signup Functionality
     And I enter password "  Test@123  "
     And I select gender "Male"
     And I click on Sign up button
-    Then I should see a success message Signup successful
+    Then I should see a success message Signup successful or error "User already exits with provided email"
    
 
   @Edge

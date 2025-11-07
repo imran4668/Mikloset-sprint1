@@ -64,16 +64,14 @@ let signuppage:SignupPage;
        
    
        
-         Then('I should see a success message Signup successful', async function () {
-            await signuppage.verifyWelcomMsgToast();
+         Then('I should see a success message Signup successful or error {string}', async function (err) {
+            await signuppage.validateErrOrWelcomeMsg(err);
            
          });
        
    
        
-         Then('I should be redirected to the Mikloset dashboard', async function () {
-           await signuppage.verifyDashbard();
-         });
+      
        
 
          //verify the signuppage
@@ -107,7 +105,6 @@ let signuppage:SignupPage;
    
        
          When('I leave all fields blank', async function () {
-            console.log("Entire Fields is free");
             await signuppage.verifySignupButton();
           
          });

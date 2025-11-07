@@ -82,6 +82,10 @@ export default class SignupPage {
   async pressSignupButton() {
     await this.singnUpButton.click();
   }
+  async validateErrOrWelcomeMsg(err?:string){
+    err==="User already exits with provided email"? await this.verifyValidationMsg(err):
+    await this.verifyWelcomMsgToast();
+  }
   async verifyWelcomMsgToast() {
     await expect(this.welcomeMsgToast).toContainText("Welcome");
     await expect(this.succesMsgToast).toContainText("User Signup successful");

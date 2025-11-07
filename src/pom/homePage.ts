@@ -17,7 +17,7 @@ export default class HomePage {
         await this.page.goto(`${process.env.BASE_URL}${url}`);
         await this.page.waitForLoadState('networkidle');
         await this.page.waitForLoadState('load')
-        console.log(`${process.env.BASE_URL}${url}`);
+        
     }
     async navigateToLoginPage(){
         await this.page.waitForLoadState('networkidle');
